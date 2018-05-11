@@ -1,0 +1,122 @@
+@charset 'utf-8';
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.intro {
+	background-color: #1753a4;
+	background-image: url(../images/bg_home.png);
+	background-repeat: no-repeat;
+}
+.intro .txt {
+	margin-top: 10%;
+}
+.txt h3 {
+	line-height: 37px;
+	font-weight: 600;
+}
+.txt p {
+	line-height: 26px;
+  	font-size: 16px;
+  	font-weight: lighter;
+}
+.textura {	
+	min-height: 650px;
+	color: #ffffff;
+}
+#aviso{
+	text-decoration: none !important;
+	color: #ababab !important;
+	font-weight: lighter;
+}
+.aviso{
+	  margin-top: 3px;
+
+}
+.servicios {
+	background-color: #fff;
+	text-align: center;
+	padding: 50px 0;
+}
+.servicios h2 {
+	font-size: 36px;
+	font-weight: 600;
+	text-decoration: underline;
+	color: #1753a4;
+}
+.seccion {
+	text-align: center;
+}
+.empresas {
+	background-color: #61c81f;
+	color: #ffffff;
+	padding: 50px 0;
+}
+.empresas .icono, .candidatos .icono {
+	font-size: 32px;
+  	font-weight: 600;
+}
+.empresas .icono img, .candidatos .icono img {
+	margin: 0 20px 0 0;
+}
+.candidatos {
+	background-color: #ff7427;
+	color: #ffffff;
+	padding: 50px 0;
+}
+.btn-enlace {
+	text-align: center;
+}
+.verde {
+	width: 200px;
+	padding: 20px;
+	background-color: #4d9e19;
+	border: 2px solid #fff;	
+}
+.verde:hover {
+	background-color: #4d9e19;
+	border: 2px solid #fff;
+}
+.naranja {
+	width: 200px;
+	padding: 20px;
+	background-color: #e85b0e;
+	border: 2px solid #fff;
+}
+.naranja:hover {
+	background-color: #e85b0e;
+	border: 2px solid #fff;
+}
+.proceso {
+  text-align: center;
+  background-color: #e9e9e9;
+  padding: 50px;
+  margin: 50px 0;
+}
+.proceso .col-md-3 {
+  text-align: center;
+  margin: 30px 0;
+}
+.proceso .col-md-3 span {
+  clear: both;
+  color: #1c56a2;
+  font-weight: 600;
+}
+.proceso .col-md-3 img {
+  display: block;
+  margin: 0 auto;
+}
+.footer {
+	background-color: #1753a4;
+	padding: 10px 0;
+  height: auto;
+  color: #fff;
+  font-weight: lighter;
+}
+.footer a{
+  color: #fff;
+  font-weight: 600;
+}

@@ -1,0 +1,14 @@
+SetEnv HASH_ENCRYPT gtg5igLZasUC3xNfDlvTGBxxkoMuR6FaCYw5
+SetEnv AES_ENCRYPT  gtg5igLZasUC3xNfDlvTGBxxkoMuR6FaCYw5
+SetEnv ENCRYPT_KEY eTkFHqausC34vmldkSrLkMwX13kqpDg1CYOd
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^core.*
+RewriteRule ^(.*)$ /escuela/index.php?/$1 [L]
+RewriteCond %{REQUEST_URI} ^app.*
+RewriteRule ^(.*)$ /escuela/index.php?/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|css|js|img|robots\.txt)
+RewriteRule ^(.*)$ /escuela/index.php/$1 [L]
